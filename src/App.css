@@ -1,38 +1,392 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navContainer {
+  width: 100%;
+  height: 75px;
+  font-family: "Poppins", sans-serif !important;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: #111a28;
+  padding: 0 3%;
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+
+
+}
+
+/* .fa-s { */
+  /* background-color: orangered;  */
+  /* color: black;
+  text-align: center;
+  margin-right: auto;
+  padding: 4px 4px;
+  border-radius: 2px; */
+  /* outline: 2px solid #00cf5d; */
+  /* font-size: 35px;
+  height: 43px; */
+/* } */
+
+.fa-apple{
+  background-color:aquamarine;
+  text-align: center;
+  margin-right: auto;
+  padding: 8px 8px;
+  border-radius: 2px;
+  font-size: 35px;
+
+ 
+}
+.nav-ul {
+  width: 600px;
+  display: flex;
+  height: 100%;
+  margin-top: 15px;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-weight:bold;
+}
+.nav-li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-li a:hover {
+
+  color: orangered;
+  text-decoration: none;
+}
+.contact:hover {
+  padding: 10px;
+  border-radius: 3px;
+  outline: 1px solid blue;
+  background-color:aqua ;
+
+}
+.fa-download{
+  background-color: orangered;
+}
+/* .contact:hover{
+  color:white;
+  background-color: aqua;
+} */
+/*--------------------------- main---------------------- */
+.mainpg {
+  /* background-color:#111a28 ; */
+  
+  font-size: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.mainpg{
+  color: #fff;
+}
+
+
+.main-full-page {
+  background-size: cover;
+ 
+}
+/* .fa-angles-right {
+  color: #cf6100;
+} */
+
+.about:after,
+.about:before {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  /* text-decoration: line-through; */
+}
+#about {
+  background-color: #111a28;
+  color: rgb(199, 196, 196) !important;
+  /* padding: 50px; */
+
+} 
+.about {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color:orangered;
+}
+.btn-resume {
+  margin-right: 20px;
+  font-size: 25px;
+  background-color:blueviolet;
+  color: white;
+  margin-top: 10px;
+  border-radius:30px ;
+}
+.btn-about {
+  border: 2px solid #111a28;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-about:hover{
+  background-color: #00cccf;
+}
+
+.aboutHead {
+  font-size: 20px;
+  color:greenyellow;
+}
+.fa-download{
+  background-color:#111a28;
+  color:#fff;
+  
+
+}
+
+/* .aboutHead-fa-solid fa-wind-turbine{
+  color:#cf0075
+} */
+.about-content {
+  font-size: 20px;
+  line-height: 1.5;
+  word-spacing: 5px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.coverphoto {
+  height: 600px;
+  width: 600px;
+  margin-top: 25px;
+  border-radius: 50px;
+}
+/* skills---------------------------------------------- */
+.skills:after,
+.skills:before {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+
+}
+.skills {
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #00cccf;
+}
+/* --------------------card-------------------- */
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #8acf00; */
+  justify-content: space-between;
+}
+.bg-container {
+  width: 30%;
+  background-color: #111a28;
+  color: pink;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+
+  height: 100px;
+  border: 0.5px solid white;
+  outline: 2px solid #0007cf;
+  /* outline :2px solid #4f3c8d; */
+}
+.progress-bar {
+  /* background-color: #8acf00; */
+  background-color:#00cfc8
+  
+}
+#skills {
+  margin-bottom: 120px;
+  margin-top: 20px;
+  /* padding: 20px 20px; */
+   padding-left: 100px;
+  /* height: 100%;
+  width: 100%; */
+  padding-right: 100px; 
+  padding-bottom: 70px;
+  /* padding:50px 50px 100px 100px ; */
+   max-width: max-content;
+  background-color: #111a28;
+}
+.btn-skills {
+  margin-right: 80px;
+  font-size: 25px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #cf0075;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+
+}
+/* project ------------------------------------------- */
+
+.projectHead:after,
+.projectHead:before {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  /* text-decoration: line-through; */
+}
+.projectHead {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #00cfc8;
+}
+.fa-github,
+.fa-square-arrow-up-right {
+  font-size: 40px;
+  margin: 5px;
+  background-color: #fff;
+  color:#00cfc8;
+}
+
+.projectContainer {
+  background-color: #1d293a;
+  /* background-color:mistyrose; */
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  color: rgb(199, 196, 196);
+  border-radius: 10px;
+  padding: 25px;
+}
+.projectName {
+  font-size: 60px;
+  color:aquamarine
+}
+.proAbout {
+  font-size: 20px;
+  line-height: 35px;
+}
+.tecUsed {
+  margin-top: 10px;
+}
+#project {
+  background-color: #111a28;
+}
+/* //--------------------------------------// */
+.projectHead:after,
+.projectHead:before {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  /* text-decoration: line-through; */
+}
+body {
+  background-color: #1d293a;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+
+
+.flip-box {
+  background-color: transparent;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  text-align: center;
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+/* --------------------------- */
+
+/* conatct------------------- */
+.contactHead:after,
+.contactHead:before {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  /* text-decoration: line-through; */
+ 
+}
+.contactHead {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: blue;
+  
+}
+.btn-contact {
+  /* margin: 10px; */
+  font-size: 25px;
+  background-color: orangered;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: white;
+  
+}
+.contact-text {
+  font-size: 40px;
+  margin-bottom: 20px;
+  /* background-color: #111a28; */
+}
+#contact {
+  margin-bottom: 70px;
+ margin-top: 20px;
+max-width: max-content;
+ padding-bottom: 50px;
+  background-color: #111a28;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.contactInfo {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-envelope,
+.fa-linkedin,
+.fa-github-square,
+.fa-location-dot {
+  /* color: #0087cf; */
+  color: crimson;
+  margin-right: 15px;
+}
+.contactA {
+  text-decoration: none;
+  
+  color: #111a28;
+  color: white;
 }
