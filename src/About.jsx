@@ -32,7 +32,7 @@ function About() {
             <div className="col-lg-6">
               <div className=" about-content">
                 {" "}
-                I have completed my Fullstack development trainee in Guvi and I  am very Passionate and dedicated to Work as Front end Developer.I am Much interested in front-end development,Myself want to become a front-end developer my qualifications make me a suitable Candidate for the Front-end developer role.            </div>
+                I have completed my Fullstack development trainee in Guvi and, I am very Passionate and dedicated to Work as Front end Developer.I am Much interested in front-end development,Myself want to become a front-end developer my qualifications make me a suitable Candidate for the Front-end developer role.            </div>
             </div>
            
             <div className="col-lg-6 d-flex justify-content-center mb-5">

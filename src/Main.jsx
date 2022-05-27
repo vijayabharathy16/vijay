@@ -17,13 +17,13 @@ function Main() {
                 <marquee direction="left" behavior="alternate" style={{color:"white"}}> Vijayabharathy</marquee>
               </p>
               <div className="d-flex justify-content-center mt-5">
-                <a href="https://app.luminpdf.com/viewer/62850cca310975808b3bced2" className="btn btn-resume">
+                <a href="https://drive.google.com/file/d/1k1csiAXWUDhJcKB2nTAhbg0UCEiz5Jpe/view" target={"_blank"} className="btn btn-resume">
                 <i className="fa fa-download"></i> 
                     View Resume</a>
                
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </>
