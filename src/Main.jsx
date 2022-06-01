@@ -18,7 +18,7 @@ function Main() {
               </p>
               <div className="d-flex justify-content-center mt-5">
                 <a href="https://drive.google.com/file/d/1k1csiAXWUDhJcKB2nTAhbg0UCEiz5Jpe/view" target={"_blank"} className="btn btn-resume">
-                <i className="fa fa-download"></i> 
+                {/* <i className="fa fa-download"></i>  */}
                     View Resume</a>
                
               </div>

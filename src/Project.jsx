@@ -1,27 +1,19 @@
 import React from "react";
-import logo from "./images/project1.jpg"
-import logo1 from "./images/project2.jpg"
-import logo2 from "./images/project3.jpg"
-import logo3 from "./images/project4.jpg"
-import logo4 from "./images/project5.jpg"
-import logo5 from "./images/project6.jpg"
+
+import logo1 from "./images/image1.jpg"
+import logo2 from "./images/image2.jpg"
+import logo3 from "./images/image3.jpg"
+import logo4 from "./images/image4.jpg"
+
 
 
 
 function Projects() {
   const project = [
-    {
-      image: "project1.jpg",
-      projectName: "Clubhouse-clone",
-      about:
-        "I have done a project called clubhouse-clone and please have a look of it",
-      gitHubLink: "https://github.com/vijayabharathy16/react-clubhouse-clone",
-      delpoyedLink: "https://vijay-clubhouse-clone.netlify.app/",
-
-    },
+  
     {
       image: "project2.jpg",
-      projectName: "Product-sales",
+      projectName: "Movi-details-list",
       about:
         "I have done a project called product-sales and please have a look of it",
       gitHubLink: "https://github.com/vijayabharathy16/ProductSales-app",
@@ -30,7 +22,7 @@ function Projects() {
     },
     {
       image: "project3.jpg",
-      projectName: "Admin-pannel-dashboard",
+      projectName: "profile-create-app",
       about:
         "I have done a project called adimin-pannel-dashborad and please have a look of it",
       gitHubLink: "https://github.com/vijayabharathy16/admin-pannel-dashboard",
@@ -39,25 +31,17 @@ function Projects() {
     },
     {
       image: "project4.jpg",
-      projectName: "Book-movie",
+      projectName: "Quize-app",
       about:
         "I have done a project called book-movie and please have a look of it",
       gitHubLink: "https://github.com/vijayabharathy16/bookmovie-app",
       delpoyedLink: "https://vijay-bookmovie-app.netlify.app/",
 
     },
-    {
-      image: "project5.jpg",
-      projectName: "Todo-app",
-      about:
-        "I have done a project called todo-app and please have a look of it",
-      gitHubLink: "https://github.com/vijayabharathy16/Todo-app",
-      delpoyedLink: "https://vijay-todo-app.netlify.app/",
-
-    },
+   
     {
       image: "project6.jpg",
-      projectName: "Library-mangement",
+      projectName: "Book store",
       about:
         "I have done a project called library-magement and please have a look of it",
       gitHubLink: "https://github.com/vijayabharathy16/Library-mangement",
@@ -69,7 +53,7 @@ function Projects() {
   ];
   return (
     <>
-      <div id="project" className="container-fluid">
+     <div id="project" className="container-fluid">
         {" "}
         <div className="container ">
           <div className="row">
@@ -84,16 +68,16 @@ function Projects() {
                       {/* <h3 className="projectConatainer">
                         <img src={data.image} height={"200px"} width={"300px"}  alt="photo" />
                       </h3> */}
-                      <img src={logo} height={"200px"} width={"300px"} alt="photo" />
+                      <img src={logo1} height={"200px"} width={"450px"} alt="photo" />
                       <h3 className="projectName">
-                        <h3>Clubhouse-clone</h3>
+                        <h3>Movie-Detail-List</h3>
                       </h3>
-                      <p className="proAbout">I have done a project called clubhouse-clone and please have a look of it</p>
-                      <a href= "https://github.com/vijayabharathy16/react-clubhouse-clone" target={"_blank"}>
+                      <p className="proAbout">I have done a project called Movie-list and please have a look of it</p>
+                      <a href= "https://github.com/vijayabharathy16/movie-data-list" target={"_blank"}>
 
                         <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
                       </a>
-                      <a href="https://vijay-clubhouse-clone.netlify.app/" target={"_blank"}>
+                      <a href="https://vijay-movie-data-list.netlify.app/" target={"_blank"}>
 
                         <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
                       </a>
@@ -103,38 +87,16 @@ function Projects() {
 
                     <div className="col-lg-3  projectContainer">
 
-                      <img src={logo1} height={"200px"} width={"300px"} alt="photo" />
+                      <img src={logo2} height={"200px"} width={"450px"} alt="photo" />
                       <h3 className="projectName">
-                        <h3>Product-sales</h3>
+                        <h3>Food-Datails-App</h3>
                       </h3>
-                      <p className="proAbout">I have done a project called product-sales and please have a look of it</p>
-                      <a href="https://github.com/vijayabharathy16/ProductSales-app" target={"_blank"}>
+                      <p className="proAbout">I have done a project called Food-details-app and please have a look of it</p>
+                      <a href="https://github.com/vijayabharathy16/Food-recipe-app" target={"_blank"}>
 
                         <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
                       </a>
-                      <a href="https://vijay-productsales.netlify.app/" target={"_blank"}>
-
-                        <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
-                      </a>
-
-                    </div>
-
-
-
-                    <div className="col-lg-3  projectContainer">
-                      {/* <h3 className="projectConatainer">
-                        <img src={data.image} height={"200px"} width={"300px"}  alt="photo" />
-                      </h3> */}
-                      <img src={logo2} height={"200px"} width={"300px"} alt="photo" />
-                      <h3 className="projectName">
-                        <h3>Admin-pannel-dashboard</h3>
-                      </h3>
-                      <p className="proAbout">I have done a project called admin-pannel and please have a look of it</p>
-                      <a href= "https://github.com/vijayabharathy16/admin-pannel-dashboard" target={"_blank"}>
-
-                        <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
-                      </a>
-                      <a href="https://vijayabharathy-admin-pannel.netlify.app/" target={"_blank"}>
+                      <a href="https://preeminent-cajeta-757ac1.netlify.app/" target={"_blank"}>
 
                         <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
                       </a>
@@ -147,54 +109,32 @@ function Projects() {
                       {/* <h3 className="projectConatainer">
                         <img src={data.image} height={"200px"} width={"300px"}  alt="photo" />
                       </h3> */}
-                      <img src={logo3} height={"200px"} width={"300px"} alt="photo" />
+                      <img src={logo3} height={"200px"} width={"450px"} alt="photo" />
                       <h3 className="projectName">
-                        <h3>Book-movie</h3>
+                        <h3>Quize-App</h3>
                       </h3>
-                      <p className="proAbout">I have done a project called book-movie and please have a look of it</p>
-                      <a href= "https://github.com/vijayabharathy16/bookmovie-app" target={"_blank"}>
+                      <p className="proAbout">I have done a project called Quize-app and please have a look of it</p>
+                      <a href= "https://github.com/vijayabharathy16/quize-app" target={"_blank"}>
 
                         <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
                       </a>
-                      <a href="https://vijay-bookmovie-app.netlify.app/" target={"_blank"}>
+                      <a href="https://tourmaline-semifreddo-3649d1.netlify.app/" target={"_blank"}>
 
                         <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
                       </a>
 
                     </div>
 
-
-
+                   
                     <div className="col-lg-3  projectContainer">
                       {/* <h3 className="projectConatainer">
                         <img src={data.image} height={"200px"} width={"300px"}  alt="photo" />
                       </h3> */}
-                      <img src={logo4} height={"200px"} width={"300px"} alt="photo" />
+                      <img src={logo4} height={"200px"} width={"450px"} alt="photo" />
                       <h3 className="projectName">
-                        <h3>Todo-app</h3>
+                        <h3>Book Store</h3>
                       </h3>
-                      <p className="proAbout">I have done a project called todo-app and please have a look of it</p>
-                      <a href= "https://github.com/vijayabharathy16/Todo-app" target={"_blank"}>
-
-                        <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
-                      </a>
-                      <a href="https://vijay-todo-app.netlify.app/" target={"_blank"}>
-
-                        <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
-                      </a>
-
-                    </div>
- 
-
-                    <div className="col-lg-3  projectContainer">
-                      {/* <h3 className="projectConatainer">
-                        <img src={data.image} height={"200px"} width={"300px"}  alt="photo" />
-                      </h3> */}
-                      <img src={logo5} height={"200px"} width={"300px"} alt="photo" />
-                      <h3 className="projectName">
-                        <h3>Library-mangement</h3>
-                      </h3>
-                      <p className="proAbout">I have done a project called library-details and please have a look of it</p>
+                      <p className="proAbout">I have done a project called Book-stores and please have a look of it</p>
                       <a href= "https://github.com/vijayabharathy16/Library-mangement" target={"_blank"}>
 
                         <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
@@ -220,6 +160,11 @@ function Projects() {
                     
 
 }
+
+
+
+
+
 
 
 

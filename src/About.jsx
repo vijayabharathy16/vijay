@@ -10,9 +10,8 @@ function About() {
         <div className="container ">
           <div className="row">
             <div className="col-lg-12">
-              <p className="about" style={{ marginBottom: "40px" }}>
-                About
-              </p>
+     <p className="about" style={{ marginBottom: "40px" }}>About Me</p>
+            
             </div>
           </div>
           <div className="row ">
@@ -32,7 +31,7 @@ function About() {
             <div className="col-lg-6">
               <div className=" about-content">
                 {" "}
-                I have completed my Fullstack development trainee in Guvi and, I am very Passionate and dedicated to Work as Front end Developer.I am Much interested in front-end development,Myself want to become a front-end developer my qualifications make me a suitable Candidate for the Front-end developer role.            </div>
+                I Have Completed My Fullstack Development Course In Guvi and, I am very Passionate and Dedicated to Work as Front End Development I am Much Interested in Front-End Development, Myself want to Become a Front-End Developer My Qualifications Make Me a Suitable Candidate For the Front-End Developer Role.            </div>
             </div>
            
             <div className="col-lg-6 d-flex justify-content-center mb-5">
