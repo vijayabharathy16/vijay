@@ -70,14 +70,14 @@ function Projects() {
                       </h3> */}
                       <img src={logo1} height={"200px"} width={"450px"} alt="photo" />
                       <h3 className="projectName">
-                        <h3>Movie-Detail-List</h3>
+                        <h3>Food-Delivery-app</h3>
                       </h3>
-                      <p className="proAbout">I have done a project called Movie-list and please have a look of it</p>
-                      <a href= "https://github.com/vijayabharathy16/movie-data-list" target={"_blank"}>
+                      <p className="proAbout">I have done a project called food-delivery-app and please have a look of it</p>
+                      <a href= "https://github.com/vijayabharathy16/React-food-delivery-app-main" target={"_blank"}>
 
                         <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
                       </a>
-                      <a href="https://vijay-movie-data-list.netlify.app/" target={"_blank"}>
+                      <a href="https://famous-cheesecake-548e47.netlify.app/" target={"_blank"}>
 
                         <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
                       </a>
@@ -89,14 +89,14 @@ function Projects() {
 
                       <img src={logo2} height={"200px"} width={"450px"} alt="photo" />
                       <h3 className="projectName">
-                        <h3>Food-Datails-App</h3>
+                        <h3>Movie-details-app</h3>
                       </h3>
-                      <p className="proAbout">I have done a project called Food-details-app and please have a look of it</p>
-                      <a href="https://github.com/vijayabharathy16/Food-recipe-app" target={"_blank"}>
+                      <p className="proAbout">I have done a project called Movie-details-app and please have a look of it</p>
+                      <a href="https://github.com/vijayabharathy16/movie-details" target={"_blank"}>
 
                         <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
                       </a>
-                      <a href="https://preeminent-cajeta-757ac1.netlify.app/" target={"_blank"}>
+                      <a href="https://charming-hotteok-e20e33.netlify.app/" target={"_blank"}>
 
                         <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
                       </a>
@@ -114,11 +114,11 @@ function Projects() {
                         <h3>Quize-App</h3>
                       </h3>
                       <p className="proAbout">I have done a project called Quize-app and please have a look of it</p>
-                      <a href= "https://github.com/vijayabharathy16/quize-app" target={"_blank"}>
+                      <a href= "https://github.com/vijayabharathy16/Reactjs-Quiz-App" target={"_blank"}>
 
                         <button className="btn btn-info ms-3" target={"_blank"}>Github</button>
                       </a>
-                      <a href="https://tourmaline-semifreddo-3649d1.netlify.app/" target={"_blank"}>
+                      <a href="https://cool-seahorse-ff2489.netlify.app/" target={"_blank"}>
 
                         <button className="btn btn-success ms-3" target={"_blank"}>Show</button>
                       </a>
