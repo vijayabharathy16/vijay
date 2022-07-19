@@ -17,7 +17,7 @@ function Main() {
                 <marquee direction="left" behavior="alternate" style={{color:"white"}}> Vijayabharathy</marquee>
               </p>
               <div className="d-flex justify-content-center mt-5">
-                <a href="https://drive.google.com/file/d/1GZ8YSlBpWRegWsQf4SYHB1SfVL0Mfgp9/view?usp=sharing" target={"_blank"} className="btn btn-resume">
+                <a href="https://drive.google.com/file/d/1u-08bwg3FCpdT-MXTWhrsjgrfQ6AuoxB/view?usp=sharing" target={"_blank"} className="btn btn-resume">
                 {/* <i className="fa fa-download"></i>  */}
                     View Resume</a>
                
