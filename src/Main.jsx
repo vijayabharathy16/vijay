@@ -11,19 +11,23 @@ function Main() {
           <div className="col-lg-12">
             <div className="main-full-page">
 
-              <p style={{color:"#00cfc8"}}
-              className="text-center mainpg mb-0 mt-5 ">Hey There,I'm!</p>
+              <p style={{ color: "#00cfc8" }}
+                className="text-center mainpg mb-0 mt-5 ">Hey There,I'm!</p>
               <p className="text-center text-dark mainpg ">
-                <marquee direction="left" behavior="alternate" style={{color:"white"}}> Vijayabharathy</marquee>
+                <marquee direction="left" behavior="alternate" style={{ color: "white" }}> Vijayabharathy</marquee>
               </p>
               <div className="d-flex justify-content-center mt-5">
-                <a href="https://drive.google.com/file/d/1wz0LvduSVS7oKi9Qt5BypkjXjzwbxWRv/view?usp=sharing" target={"_blank"} className="btn btn-resume">
-                {/* <i className="fa fa-download"></i>  */}
-                    View Resume</a>
+                <a href="https://drive.google.com/file/d/1scUtWa3pXEZkGeLQ-S_r2wd8PrPYSkKl/view?usp=sharing" target={"_blank"} className="btn btn-resume">
+                  {/* <i className="fa fa-download"></i>  */}
+                  View Resume</a>
+
                
+          
               </div>
+            
             </div>
-          </div> 
+           
+          </div>
         </div>
       </div>
     </>
