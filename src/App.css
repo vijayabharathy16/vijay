@@ -134,18 +134,23 @@ nav {
   justify-content: center;
   /* text-align: center; */
   color:orangered;
-  font-size: 40px;
+  font-size: 35px;
   margin-right:30px;
   margin-bottom: 30px;
- padding: 15px;
- padding-right: 30px;
- border-right: 30ox;
-  margin-right: 60px;
+  /* padding: 30px 30px 20px 20px; */
+ padding-top: 15px;
+/* padding-right: 70px; */
+/* padding-left: 40px; */
+padding-left: 40px;
+ border-right: 10px;
+  margin-right: 30px;
   text-align:center;
   align-items: center;
-  display: flex;
+  display:inline-flex;
+
    /* display: inline-table; */
    /* display: inline-block; */
+   /* display: ruby-text-container; */
 
 
 }
