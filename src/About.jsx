@@ -35,7 +35,7 @@ function About() {
               <div className=" about-content">
                 {" "}
               
-                I Have Completed My Fullstack Development Course In Guvi and, I am very Passionate and Dedicated to Work as Front End Development I am Much Interested in Front-End Development, Myself want to Become a Front-End Developer My Qualifications Make Me a Suitable Candidate For the Front-End Developer Role.</div> <a className="contactA" href="https://github.com/vijayabharathy16" target={"_blank"}>
+                I have completed my fullstack development course in guvi and, I am very passionate and dedicated to work as front end development i am much interested in front-end development, Myself want to become a front-end developer my qualifications make me a suitable candidate for the front-end developer role.</div> <a className="contactA" href="https://github.com/vijayabharathy16" target={"_blank"}>
                   <i className="fa-brands fa-github-square"></i>
                 </a>
                 <a
